@@ -1,0 +1,92 @@
+body {
+    background: #FFFFFF;
+    
+}
+
+.page-header {
+}
+.nav {
+}
+.logo {
+    font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+font-family: 'Raleway', sans-serif;
+
+}
+.top-line {
+}
+.top-line-item {
+}
+.top-line-link {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.contacts {
+}
+.contacts-item {
+}
+.contacts-item-link {
+}
+.section-cap {
+    background: #2F303A;
+}
+.cap-title {
+}
+.button {
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.section-main {
+}
+.main-list {
+}
+.main-item {
+}
+.main-title {
+}
+.main-text {
+}
+.section-items {
+}
+.title-items {
+}
+.items-list {
+}
+.items-item {
+}
+.image-items {
+}
+.section-team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-image {
+}
+.team-name {
+}
+.team-text {
+}
+.footer {
+}
+.address {
+}
+.list-address {
+}
+.item-address {
+}
+.link-address {
+}
