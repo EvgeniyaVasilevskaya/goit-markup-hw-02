@@ -19,8 +19,7 @@ body {
 }
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  line-height: 31px;
+  font-weight: 700;
   letter-spacing: 0.03em;
   color: var(--logo-color);
 }
@@ -32,8 +31,7 @@ body {
 .top-line-item {
 }
 .top-line-link {
-  font-size: 14px;
-  line-height: 16px;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
@@ -46,8 +44,7 @@ body {
 .contacts-item {
 }
 .contacts-item-link {
-  font-size: 14px;
-  line-height: 16px;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
@@ -55,11 +52,13 @@ body {
   background: var(--footer-background);
 }
 .cap-title {
+  font-weight: 900;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--button-text-color);
 }
 .button {
+  font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--button-text-color);
   background-color: var(--accent-color);
@@ -71,21 +70,20 @@ body {
 .main-item {
 }
 .main-title {
-  font-size: 14px;
-  line-height: 16px;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 .main-text {
-  lfont-size: 14px;
-  line-height: 24px;
+  font-weight: 400;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 .section-items {
 }
 .title-items {
+  font-weight: 700;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
@@ -98,8 +96,7 @@ body {
 .section-team {
 }
 .team-title {
-  font-size: 36px;
-  line-height: 42px;
+  font-weight: 700;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
@@ -110,14 +107,12 @@ body {
 .team-image {
 }
 .team-name {
-  font-size: 16px;
-  line-height: 19px;
+  font-weight: 500;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .team-text {
-  font-size: 16px;
-  line-height: 19px;
+  font-weight: 400;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -126,6 +121,7 @@ body {
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   color: var(--button-text-color);
 }
 .address {
@@ -135,18 +131,17 @@ body {
 .item-address {
 }
 .link-address {
-  font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: var(--button-text-color);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--button-text-color);
 }
 
 .link-address-mail,
-.link-address-tel {font-size: 14px;
-  line-height: 24px;
+.link-address-tel {
+  font-weight: 400;
   letter-spacing: 0.03em;
-  color: var(--address-text-color)}
-
+  color: var(--address-text-color);
+}
 
 .visually-hidden {
   position: absolute;
@@ -155,31 +150,34 @@ color: var(--button-text-color);
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .button-filter {
-  font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--title-text-color);
-background-color: var(--sectionbg-background);
-border-radius: 4px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--sectionbg-background);
+  border-radius: 4px;
 }
 
 .project-item {
-
 }
 .project-image {
-
 }
 
-.project-title{
-
+.project-title {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
 }
 
-.project-text {}
+.project-text {
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
