@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto';
 }
 
+:root{
+
+
+}
 .page-header {
 }
 .nav {
@@ -22,6 +26,10 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.current {
+color: tomato;
 }
 .contacts {
 }
