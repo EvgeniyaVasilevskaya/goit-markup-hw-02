@@ -2,9 +2,16 @@ body {
   font-family: 'Roboto';
 }
 
-:root{
-
-
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --address-text-color: rgba(255, 255, 255, 0.6);
+  --button-text-color: #ffffff;
+  --footer-background: #2f303a;
+  --sectionbg-background: #f5f4fa;
+  --ащтв-background: #f5f5f5;
 }
 .page-header {
 }
@@ -15,7 +22,10 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--logo-color);
+}
+.logo-start {
+  color: var(--accent-color);
 }
 .top-line {
 }
@@ -25,37 +35,34 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .current {
-color: tomato;
+  color: #2196f3;
 }
 .contacts {
 }
 .contacts-item {
 }
 .contacts-item-link {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .section-cap {
-  background: #2f303a;
+  background: var(--footer-background);
 }
 .cap-title {
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--button-text-color);
 }
 .button {
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
 }
 .section-main {
 }
@@ -68,19 +75,19 @@ color: tomato;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .main-text {
-    letter-spacing: 0.03em;
-    color: #757575;
-
+  lfont-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .section-items {
 }
-.title-items,
-.team-title {
-    letter-spacing: 0.03em;
-color: #212121;
+.title-items {
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 .items-list {
 }
@@ -91,6 +98,10 @@ color: #212121;
 .section-team {
 }
 .team-title {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 .team-list {
 }
@@ -99,10 +110,23 @@ color: #212121;
 .team-image {
 }
 .team-name {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 .team-text {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .footer {
+  background: var(--footer-background);
+}
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  color: var(--button-text-color);
 }
 .address {
 }
@@ -111,18 +135,29 @@ color: #212121;
 .item-address {
 }
 .link-address {
+  font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--button-text-color);
 }
 
+.link-address-mail,
+.link-address-tel {font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--address-text-color)}
+
+
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
